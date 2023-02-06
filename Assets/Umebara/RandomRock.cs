@@ -17,7 +17,7 @@ public class RandomRock : MonoBehaviour
     }
     void Update()
     {
-        // 30フレーム毎にシーンにプレハブを生成
+        //初めの一回だけプレハブを生成
         if (first == false)
         {
             // プレハブの位置をランダムで設定
