@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Umebara/gamescene 1.unity
     guid: fc56786c3cc3c454cb4b3cb275461f42
   - enabled: 1
-    path: Assets/Umebara/GoalScene.unity
+    path: Assets/Scenes/GoalScene.unity
     guid: 9a12d04947292a945b46d8602ba252ef
   m_configObjects: {}
