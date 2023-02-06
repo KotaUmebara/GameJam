@@ -43,7 +43,7 @@ public class BallController : MonoBehaviour
         //ジャンプするプログラム
         if (Input.GetKeyDown(KeyCode.Space)&& is_jumpable == true)
         {
-            rb.AddForce(new Vector3(0, 250, 0), ForceMode.Force);
+            rb.AddForce(new Vector3(0, 800, 0), ForceMode.Force);
         }
     }
     private void OnCollisionEnter(Collision collision)
