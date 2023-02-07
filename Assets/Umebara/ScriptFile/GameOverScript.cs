@@ -22,7 +22,7 @@ public class GameOverScript : MonoBehaviour
         if(Player == null)
         {
             Gcount += Time.deltaTime;
-            if(Gcount >= 0.350f)
+            if(Gcount >= 2.25f)
             {
                 SceneManager.LoadScene("GameOverScene");
             }
