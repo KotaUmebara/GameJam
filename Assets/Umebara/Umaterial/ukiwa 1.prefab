@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2237219682549276755}
   - component: {fileID: 4100743219557192857}
   - component: {fileID: 4158684781404546709}
+  - component: {fileID: 3971325816454616943}
   m_Layer: 0
   m_Name: ukiwa 1
   m_TagString: Untagged
@@ -99,3 +100,16 @@ CapsuleCollider:
   m_Height: 0.024999995
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3971325816454616943
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2587379882617206092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4d71a955387af49a87968363a4beea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 5568771235665334719, guid: 40587d0d986cb794abb50c6876754868, type: 3}
