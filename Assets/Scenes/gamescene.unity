@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PrefabBrige: {fileID: 3705377821815585718, guid: e89dd23c3f5776f49b110b0f33a48695, type: 3}
   PrefabCy: {fileID: 5011117476539078354, guid: 99c06c84be6fc3f488c6e89b7bb8c309, type: 3}
+  Player: {fileID: 0}
 --- !u!4 &547425050
 Transform:
   m_ObjectHideFlags: 0
@@ -167,7 +168,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &670208372
 GameObject:
@@ -201,7 +202,7 @@ MonoBehaviour:
   PrefabBat1: {fileID: 2911428031010247421, guid: 4cc9fc5cf24d3e84db5eaad05c8f4fcc, type: 3}
   PrefabBat2: {fileID: 2911428031010247421, guid: 4cc9fc5cf24d3e84db5eaad05c8f4fcc, type: 3}
   PrefabBat3: {fileID: 2911428031010247421, guid: 4cc9fc5cf24d3e84db5eaad05c8f4fcc, type: 3}
-  PrefabBat4: {fileID: 0}
+  PrefabBat4: {fileID: 2911428031010247421, guid: 4cc9fc5cf24d3e84db5eaad05c8f4fcc, type: 3}
 --- !u!4 &670208374
 Transform:
   m_ObjectHideFlags: 0
@@ -215,7 +216,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -810,5 +811,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

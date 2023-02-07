@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5889610783751662562}
   - component: {fileID: 7355436303411635271}
   - component: {fileID: 4753326279024709773}
+  - component: {fileID: -1215696943790091023}
   m_Layer: 0
   m_Name: suika 1
   m_TagString: Untagged
@@ -84,3 +85,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &-1215696943790091023
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6554929202123223384}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.07
+  m_Center: {x: 0.03, y: -1.03, z: 0.007816966}
