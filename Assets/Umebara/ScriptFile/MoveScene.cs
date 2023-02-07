@@ -22,7 +22,7 @@ public class MoveScene : MonoBehaviour
         //³Œë‚ªØ‚è‘Ö‚í‚Á‚½‚çƒV[ƒ“‘JˆÚ
         if (change == true)
         {
-            SceneManager.LoadScene("GoalScene");
+            SceneManager.LoadScene("NewGoalScene");
             change = false;
         }
     }
