@@ -24,9 +24,9 @@ public class RandomRock : MonoBehaviour
             float x1 = Random.Range(-5.0f, 5.0f);
             float x2 = Random.Range(-5.0f, 5.0f);
             float x3 = Random.Range(-5.0f, 5.0f);
-            Vector3 pos1 = new Vector3(x1, 5.0f, 5.0f);
-            Vector3 pos2 = new Vector3(x2, 5.0f, 10.0f);
-            Vector3 pos3 = new Vector3(x3, 5.0f, 1.0f);
+            Vector3 pos1 = new Vector3(x1, 1.37f, -10.11f);
+            Vector3 pos2 = new Vector3(x2, -0.76f, 12.1f);
+            Vector3 pos3 = new Vector3(x3, -1.74f, 24.06f);
 
             // ÉvÉåÉnÉuÇê∂ê¨
             Instantiate(PrefabRock1, pos1, Quaternion.identity);
