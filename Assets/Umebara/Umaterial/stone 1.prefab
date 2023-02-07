@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 532498607092735714}
   - component: {fileID: 3516197762085949767}
   - component: {fileID: 1668861244657427853}
+  - component: {fileID: 3057349105836559089}
   m_Layer: 0
   m_Name: stone 1
   m_TagString: Untagged
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 875950153118729304}
   m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 2.50167, y: 0, z: -9.557811}
+  m_LocalPosition: {x: 2.50167, y: 0, z: -9.44}
   m_LocalScale: {x: 142.34381, y: 100, z: 58.925526}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &3057349105836559089
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875950153118729304}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.015, y: 0.015, z: 0.02022511}
+  m_Center: {x: -0.00014253378, y: -0.00035139587, z: 0.00024291684}
