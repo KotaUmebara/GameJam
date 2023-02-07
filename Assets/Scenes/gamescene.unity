@@ -341,9 +341,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eca61694e7e7d54c8c65cb3f69ea5d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabRock1: {fileID: 875950153118729304, guid: 9f80111cf4ead7d42b0e59f0851db1bf, type: 3}
-  PrefabRock2: {fileID: 875950153118729304, guid: 9f80111cf4ead7d42b0e59f0851db1bf, type: 3}
-  PrefabRock3: {fileID: 875950153118729304, guid: 9f80111cf4ead7d42b0e59f0851db1bf, type: 3}
+  PrefabRock1: {fileID: 875950153118729304, guid: 9191161c647e0754ebcfbe7ead038386, type: 3}
+  PrefabRock2: {fileID: 875950153118729304, guid: 9191161c647e0754ebcfbe7ead038386, type: 3}
+  PrefabRock3: {fileID: 875950153118729304, guid: 9191161c647e0754ebcfbe7ead038386, type: 3}
 --- !u!4 &753187042
 Transform:
   m_ObjectHideFlags: 0
@@ -812,4 +812,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1822857950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1822857952}
+  - component: {fileID: 1822857951}
+  m_Layer: 0
+  m_Name: SwimCreate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1822857951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822857950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84f1289ab53ca145b53f1d25577ecae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrefabSwim1: {fileID: 2587379882617206092, guid: 50e13a568b470e047820db514d8b0561, type: 3}
+--- !u!4 &1822857952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822857950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.422983, y: -0.689052, z: 26.919172}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
