@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Umebara/USceneFile/gamescene 1.unity
-    guid: fc56786c3cc3c454cb4b3cb275461f42
+    path: Assets/Scenes/StartScene.unity
+    guid: f0bc2af2cd2c24d4ea680573c889ba27
+  - enabled: 1
+    path: Assets/Scenes/gamescene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
     path: Assets/Scenes/GoalScene.unity
     guid: 9a12d04947292a945b46d8602ba252ef
+  - enabled: 0
+    path: Assets/Umebara/USceneFile/gamescene 1.unity
+    guid: fc56786c3cc3c454cb4b3cb275461f42
   m_configObjects: {}

@@ -47,7 +47,7 @@ public class BallController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.S ) == true)
         {
-            rb.AddForce(new Vector3(0, -500, 0), ForceMode.Force);
+            rb.AddForce(new Vector3(0, -550, 0), ForceMode.Force);
         }
         //d—Í‚ğ‚©‚¯‚éƒvƒƒOƒ‰ƒ€
         if (is_jumpable == false)
