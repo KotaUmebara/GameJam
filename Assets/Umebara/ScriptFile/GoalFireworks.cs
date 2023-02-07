@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class GoalFireworks : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] GameObject MainFireworks;
+    [SerializeField] GameObject Fireworks1;
+    [SerializeField] GameObject Fireworks2;
+    [SerializeField] GameObject Fireworks3;
+    private int angle;
     void Start()
     {
-        
+        angle= 270;
+        Instantiate(MainFireworks, this.transform.position, Quaternion.Euler(angle, 0, 0));
+        Instantiate(Fireworks1, this.transform.position, Quaternion.Euler(angle, 0, 0));
+        Instantiate(Fireworks2, this.transform.position, Quaternion.Euler(angle, 0, 0));
+        Instantiate(Fireworks3, this.transform.position, Quaternion.Euler(angle, 0, 0));
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
