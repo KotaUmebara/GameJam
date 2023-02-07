@@ -20,21 +20,24 @@ public class RandomGoal : MonoBehaviour
     }
     void Update()
     {
-        // transformを取得
-        Transform PlayerTransform = this.Player.transform;
-        // 座標を取得
-        Vector3 pos = PlayerTransform.position;
-        //筒と橋を設置
-        if (pos.z >= 50.0f && first == false)
+        if(Player!= null)
         {
-            //Playerの位置に合わせて
-            Vector3 pos1 = new Vector3(pos.x, -4.42f, 54.75f);
-            Vector3 pos2 = new Vector3(pos.x, -7.87f, 60.4f);
+            // transformを取得
+            Transform PlayerTransform = this.Player.transform;
+            // 座標を取得
+            Vector3 pos = PlayerTransform.position;
+            //筒と橋を設置
+            if (pos.z >= 50.0f && first == false)
+            {
+                //Playerの位置に合わせて
+                Vector3 pos1 = new Vector3(pos.x, -4.42f, 54.75f);
+                Vector3 pos2 = new Vector3(pos.x, -7.87f, 60.4f);
 
-            // プレハブを生成
-            Instantiate(PrefabBrige, pos1, Quaternion.identity);
-            Instantiate(PrefabCy, pos2, Quaternion.identity);
-            first = true;
+                // プレハブを生成
+                Instantiate(PrefabBrige, pos1, Quaternion.identity);
+                Instantiate(PrefabCy, pos2, Quaternion.identity);
+                first = true;
+            }
         }
     }
 }
