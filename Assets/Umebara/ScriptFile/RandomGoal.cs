@@ -29,7 +29,7 @@ public class RandomGoal : MonoBehaviour
         {
             //Playerの位置に合わせて
             Vector3 pos1 = new Vector3(pos.x, -4.42f, 54.75f);
-            Vector3 pos2 = new Vector3(pos.x, -7.05f, 60.4f);
+            Vector3 pos2 = new Vector3(pos.x, -7.87f, 60.4f);
 
             // プレハブを生成
             Instantiate(PrefabBrige, pos1, Quaternion.identity);
