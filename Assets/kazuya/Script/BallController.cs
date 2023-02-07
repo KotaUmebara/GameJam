@@ -25,20 +25,20 @@ public class BallController : MonoBehaviour
         //右に動かすプログラム
         if (Input.GetKey(KeyCode.A) == true)
         {
-            transform.Translate(new Vector3(-0.05f,0,0));
+            transform.Translate(new Vector3(0,0, -0.05f));
         }
         if (Input.GetKey(KeyCode.LeftArrow) == true)
         {
-            transform.Translate(new Vector3(-0.05f, 0, 0));
+            transform.Translate(new Vector3(0.0f, 0, -0.05f));
         }
         //左に動かすプログラム
         if (Input.GetKey(KeyCode.D) == true)
         {
-            transform.Translate(new Vector3(0.05f, 0, 0));
+            transform.Translate(new Vector3(0, 0, 0.05f));
         }
         if (Input.GetKey(KeyCode.RightArrow) == true)
         {
-            transform.Translate(new Vector3(0.05f, 0, 0));
+            transform.Translate(new Vector3(0f, 0, 0.05f));
         }
         //ジャンプするプログラム
         if (Input.GetKeyDown(KeyCode.Space)&& is_jumpable == true)
