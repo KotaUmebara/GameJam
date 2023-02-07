@@ -57,7 +57,6 @@ public class GoalFireworks : MonoBehaviour
             fire4 = false;
             fire5 = false;
             fire6 = false;
-
         }
         if (count / 1 == 1 && fire1 == false)
         {
