@@ -10,13 +10,17 @@ public class PlayerHit : MonoBehaviour
     //Playerの格納
     GameObject Player;
     // 生成するプレハブ格納用
+    //SE関連
     public GameObject explosion;
-    Vector3 pos;
+    public AudioClip sound1;
+    AudioSource audioSource;
     void Start()
     {
         change = false;
         //Playerの取得
         Player = GameObject.Find("Player");
+        //Componentを取得
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -29,8 +33,12 @@ public class PlayerHit : MonoBehaviour
             Vector3 pos = PlayerTransform.position;
             Destroy(Player);
             change = false;
+            //爆発エフェクトの一調整
+            pos.y += 0.8f;
+            pos.z -= 0.05f;
             // プレハブを生成
             Instantiate(explosion, pos, Quaternion.identity);
+            audioSource.PlayOneShot(sound1);
         }
     }
 
