@@ -1,26 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameOverScript : MonoBehaviour
 {
     public Text GameOver;
     [SerializeField] GameObject Player;
-    private bool display;
+    private float Gcount;
     void Start()
     {
         //Player�̎擾
         Player = GameObject.Find("Player");
-        display = false;
+        Gcount = 0.0f;
     }
 
     void Update()
     {
-        if(Player == null && display == false)
+        if(Player == null)
         {
-            GameOver.text = "Game Over";
-            display = true;
+            Gcount += Time.deltaTime;
+            if(Gcount >= 0.350f)
+            {
+                SceneManager.LoadScene("GameOverScene");
+            }
         }
     }
 }
