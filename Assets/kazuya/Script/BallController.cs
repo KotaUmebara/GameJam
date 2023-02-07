@@ -58,7 +58,11 @@ public class BallController : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        is_jumpable = true;
+       
+        if(collision.gameObject.tag == "yuka")
+        {
+            is_jumpable = true;
+        }
     }
 
     private void OnCollisionExit(Collision collision)
