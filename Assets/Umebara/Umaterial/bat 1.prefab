@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1478151991976019938}
   - component: {fileID: 3704074553246659368}
   - component: {fileID: 6743038382583548928}
+  - component: {fileID: 3525054983242176657}
   m_Layer: 0
   m_Name: bat 1
   m_TagString: Untagged
@@ -98,3 +99,16 @@ CapsuleCollider:
   m_Height: 0.14759612
   m_Direction: 1
   m_Center: {x: -0.0000000027939677, y: -0.036030293, z: -0.0000000032596283}
+--- !u!114 &3525054983242176657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2911428031010247421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c4d71a955387af49a87968363a4beea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 5568771235665334719, guid: 40587d0d986cb794abb50c6876754868, type: 3}

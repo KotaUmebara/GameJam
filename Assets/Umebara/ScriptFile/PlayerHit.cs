@@ -21,15 +21,12 @@ public class PlayerHit : MonoBehaviour
 
     void Update()
     {
-        if (Player != null)
+        if (change == true)
         {
             // transformを取得
             Transform PlayerTransform = this.Player.transform;
             // 座標を取得
             Vector3 pos = PlayerTransform.position;
-        }
-        if (change == true)
-        {
             Destroy(Player);
             change = false;
             // プレハブを生成
