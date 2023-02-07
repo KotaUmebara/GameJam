@@ -661,8 +661,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainFireworks: {fileID: 3418352296151115698, guid: 6fcf68d722b14a94799fb5d5a05c69b0, type: 3}
   Fireworks1: {fileID: 3097365422207875258, guid: 8421cd6dd39c16c43a96ce7f54186a57, type: 3}
-  Fireworks2: {fileID: 268689204935539989, guid: 9b6c0a311a09e444982958e271abdb52, type: 3}
-  Fireworks3: {fileID: 1250572422753716456, guid: 6459b38827ac78f4588a47480cf7a0fd, type: 3}
+  Fireworks2: {fileID: 1250572422753716456, guid: 6459b38827ac78f4588a47480cf7a0fd, type: 3}
+  Fireworks3: {fileID: 268689204935539989, guid: 9b6c0a311a09e444982958e271abdb52, type: 3}
 --- !u!4 &2032625603
 Transform:
   m_ObjectHideFlags: 0
