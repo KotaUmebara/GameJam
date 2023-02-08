@@ -18,7 +18,7 @@ public class StartFire : MonoBehaviour
     {
         angle = 270;
         Fcount = 0.0f;
-        Fcount = 0.0f;
+        Ecount = 0.0f;
         count = 0;
         fire1 = false;
         fire2 = false;
