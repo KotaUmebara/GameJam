@@ -147,7 +147,7 @@ public class GoalFireworks : MonoBehaviour
             audioSource.PlayOneShot(Explosion2);
             Sfire6 = true;
         }
-        if (Ecount >= 0.5f && Sfire7 == false)
+        if (Ecount >= 0.6f && Sfire7 == false)
         {
             audioSource.PlayOneShot(Explosion2);
             Sfire7 = true;
