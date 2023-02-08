@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/kazuya/kazuya.unity
     guid: ccd098ee56d0278418382ff1c92662bb
-  - enabled: 1
-    path: Assets/kazuya/kazuya_Test1.unity
-    guid: 263d67192927c7b45879cd47d75e118f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
