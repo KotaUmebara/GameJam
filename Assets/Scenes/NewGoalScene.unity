@@ -663,7 +663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainFireworks: {fileID: 3418352296151115698, guid: 6fcf68d722b14a94799fb5d5a05c69b0, type: 3}
   Fireworks1: {fileID: 1250572422753716456, guid: 6459b38827ac78f4588a47480cf7a0fd, type: 3}
-  Fireworks2: {fileID: 1250572422753716456, guid: 6459b38827ac78f4588a47480cf7a0fd, type: 3}
+  Fireworks2: {fileID: 3097365422207875258, guid: c60a06040c3834b409c98be91fbc7324, type: 3}
   Fireworks3: {fileID: 268689204935539989, guid: 9b6c0a311a09e444982958e271abdb52, type: 3}
   Fireworks4: {fileID: 3418352296151115698, guid: 6fcf68d722b14a94799fb5d5a05c69b0, type: 3}
   Fireworks5: {fileID: 1250572422753716456, guid: 6459b38827ac78f4588a47480cf7a0fd, type: 3}
@@ -698,7 +698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Fireworks1: {fileID: 268689204935539989, guid: 97a9c0820ebb8744d9f92d71d05d1277, type: 3}
-  Fireworks2: {fileID: 1250572422753716456, guid: db6cd7d73e84a5247b7c483e17bc58b8, type: 3}
+  Fireworks2: {fileID: 3097365422207875258, guid: c60a06040c3834b409c98be91fbc7324, type: 3}
   Fireworks3: {fileID: 3418352296151115698, guid: 801e13dd38819ce4eaee34aecb5c7bbb, type: 3}
   Explosion: {fileID: 8300000, guid: 85e513c13b29abc40b5995f486d03e5a, type: 3}
 --- !u!82 &2032625605
