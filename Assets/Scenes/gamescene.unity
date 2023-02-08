@@ -1415,7 +1415,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1097494087}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: -0.61347735, y: -1.46, z: 61.5}
+  m_LocalPosition: {x: -0.61347735, y: -1.46, z: 61.61}
   m_LocalScale: {x: 42, y: 28, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6443,7 +6443,7 @@ GameObject:
   - component: {fileID: 1313364520}
   m_Layer: 0
   m_Name: kabe_l
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6549,6 +6549,7 @@ GameObject:
   - component: {fileID: 1397516471}
   - component: {fileID: 1397516470}
   - component: {fileID: 1397516476}
+  - component: {fileID: 1397516477}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6563,7 +6564,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397516469}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c73534626275e054488c580ba91dbbbf, type: 3}
   m_Name: 
@@ -6671,11 +6672,24 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1397516469}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4d3f24587391ab2409a7f83bf15230c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1397516477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397516469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f534971e5a72d0f49af276b52b2d8f7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
 --- !u!1 &1613181314
 GameObject:
   m_ObjectHideFlags: 0
