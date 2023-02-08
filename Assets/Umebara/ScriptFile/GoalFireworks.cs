@@ -13,6 +13,7 @@ public class GoalFireworks : MonoBehaviour
     [SerializeField] GameObject Fireworks6;
     private int angle;
     private float Fcount;
+    private float Ecount;
     private int count;
     private bool fire1;
     private bool fire2;
@@ -20,11 +21,22 @@ public class GoalFireworks : MonoBehaviour
     private bool fire4;
     private bool fire5;
     private bool fire6;
+    private bool Sfire1;
+    private bool Sfire2;
+    private bool Sfire3;
+    private bool Sfire4;
+    private bool Sfire5;
+    private bool Sfire6;
+    private bool Sfire7;
+    public AudioClip Explosion;
+    public AudioClip Explosion2;
+    AudioSource audioSource;
     void Start()
     {
         angle= 270;
         Instantiate(MainFireworks, this.transform.position, Quaternion.Euler(angle, 0, 0));
         Fcount = 0.0f;
+        Ecount = 0.0f;
         count = 0;
         fire1 = false;
         fire2 = false;
@@ -32,6 +44,15 @@ public class GoalFireworks : MonoBehaviour
         fire4 = false;
         fire5 = false;
         fire6 = false;
+        Sfire1 = false;
+        Sfire2 = false;
+        Sfire3 = false;
+        Sfire4 = false;
+        Sfire5 = false;
+        Sfire6 = false;
+        Sfire7 = true;
+        //Component‚ðŽæ“¾
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -43,7 +64,8 @@ public class GoalFireworks : MonoBehaviour
         Vector3 pos5 = new Vector3(13.05f, -0.40f, 12.0f);
         Vector3 pos6 = new Vector3(-14.5f, -5.0f, 14.5f);
         Fcount += Time.deltaTime;
-        if(Fcount >= 1.0f)
+        Ecount += Time.deltaTime;
+        if (Fcount >= 1.0f)
         {
             count++;
             Fcount= 0.0f;
@@ -57,6 +79,13 @@ public class GoalFireworks : MonoBehaviour
             fire4 = false;
             fire5 = false;
             fire6 = false;
+            Sfire2 = false;
+            Sfire3 = false;
+            Sfire4 = false;
+            Sfire5 = false;
+            Sfire6 = false;
+            Sfire7 = false;
+            Ecount = 0.0f;
         }
         if (count / 1 == 1 && fire1 == false)
         {
@@ -88,5 +117,41 @@ public class GoalFireworks : MonoBehaviour
             Instantiate(Fireworks3, pos6, Quaternion.Euler(angle, 0, 0));
             fire6 = true;
         }
+        if (Ecount >= 1.5f && Sfire1 == false)
+        {
+            audioSource.PlayOneShot(Explosion);
+            Sfire1 = true;
+        }
+        if (Ecount >= 2.5f && Sfire2 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire2 = true;
+        }
+        if (Ecount >= 3.5f && Sfire3 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire3 = true;
+        }
+        if (Ecount >= 4.5f && Sfire4 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire4 = true;
+        }
+        if (Ecount >= 5.5f && Sfire5 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire5 = true;
+        }
+        if (Ecount >= 6.5f && Sfire6 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire6 = true;
+        }
+        if (Ecount >= 0.5f && Sfire7 == false)
+        {
+            audioSource.PlayOneShot(Explosion2);
+            Sfire7 = true;
+        }
+        Debug.Log(Ecount);
     }
 }
